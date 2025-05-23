@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "school_app");
+$conn = new mysqli("localhost", "root", ">{vai/kgvr.q", "school_app");
 $data = json_decode(file_get_contents("php://input"), true);
 
 $hour_id = $data['hour_id'];
