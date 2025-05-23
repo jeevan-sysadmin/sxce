@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "school_app");
+$conn = new mysqli("localhost", "root", ">{vai/kgvr.q", "school_app");
 $result = $conn->query("SELECT * FROM hours ORDER BY hour_number ASC");
 
 $hours = [];
