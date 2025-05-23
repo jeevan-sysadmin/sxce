@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "school_app");
+$conn = new mysqli("localhost", "root", ">{vai/kgvr.q", "school_app");
 
 $hour_id = $_GET['hour_id'];
 $date = date("Y-m-d");
